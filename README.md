@@ -1,8 +1,8 @@
-# NEWS Reader
+# NEWS Analyzer
 
-### NEWS Reader is a project analyzing NEWS thoroughly to help people to <ins>READ NEWS PROPERLY.</ins>
+### NEWS Analyzer is a project analyzing NEWS thoroughly to help people to <ins>READ NEWS PROPERLY.</ins>
 
-Today, we are surrounded by...
+phrase from the book
 
 ## What is the problem?
 
