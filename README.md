@@ -2,26 +2,24 @@
 
 ### NEWS Analyzer is a project analyzing NEWS thoroughly to help people to <ins>READ NEWS PROPERLY.</ins>
 
-phrase from the book
+It(News) fails to disclose that it does not merely "report" on the world.
 
 ## What is the problem?
 
-- POLITICS : boring!! too many political jargons
-- ABROAD : biased!! Conveying only dramatic disasters without normal life
-- CELEBRITY : Just for eye candy! No purpose more than serving people's gossiping desire
-- DISASTER : Exaggerate. Focuses on magnitude, unintentionally feel unsafe
+The purpose of the News seems to be report facts fast and precisely. But it is naive thought because nothing can be not biased, even the facts. Talking about certain fact means the person chose to talk about "it" and not something else. Therefore, by analyzing News and News reader, we can read/watch news properly.
 
 ## How to solve?
 
-- POLITICS : Get most used political jargons, top 100 and give explanation
-- ABROAD : Get "disaster news / all abroad news" (proportion of disaster news)
-- CELEBRITY : Get titles from latest 100 ~ 1000 news of celebrity
-- DISASTER : Get news with "die, kill, murder..." in title and create visual representation(maps, charts, graphs) for realistic understanding of all disasters
+- Analyzing pattern of fixed and repeating topics
+- Get quantity proportion of categories
+- Get user traffic proportion of categories
 
 ## Source
 
-Main resource : The News: A User's Manual(Alain de Botton)
+Main resource : The News: A User's Manual(by Alain de Botton)
 
 Uses no frameworks (using only vanilla JS)
 
 ## License
+
+## After
