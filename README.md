@@ -23,6 +23,8 @@ Main resource : The News: A User's Manual(by Alain de Botton)
 
 Uses no frameworks (using only vanilla JS)
 
-## License
-
 ## After
+
+This project had fundamental obstacle which is...
+"Human language is extremely ambiguous and abstract".
+Therefore even though the idea of this project alarms people for better world, I close this project.
