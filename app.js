@@ -1,9 +1,13 @@
-// c209502a735f4eee8e742c8d5742885a
-
+const topic = new Topic();
+const quantity = new Quantity();
+const traffic = new Traffic();
 const aboutSegment = document.querySelector('#aboutSeg');
 const topicSegment = document.querySelector('#topicSeg');
 const quantitySegment = document.querySelector('#quantitySeg');
 const trafficSegment = document.querySelector('#trafficSeg');
+topicSegment.style.display = 'none';
+quantitySegment.style.display = 'none';
+trafficSegment.style.display = 'none';
 const aboutBtn = document.querySelector('#aboutBtn');
 const topicBtn = document.querySelector('#topicBtn');
 const quantityBtn = document.querySelector('#quantityBtn');
@@ -60,3 +64,29 @@ function removeActive() {
 		trafficBtn.classList.remove('active');
 	}
 }
+
+topic
+	.getNewsCafe()
+	.then(news => {
+		news.forEach(oneNews => {
+			const div = document.createElement('div');
+			div.appendChild(document.createTextNode(`Title: ${oneNews.title}`));
+			const parent = document.querySelector('#topicSeg');
+			const sib = document.querySelector('#topicConclusion');
+			parent.insertBefore(div, sib);
+		});
+	})
+	.catch(err => console.log(err));
+
+topic
+	.getGoogleNews()
+	.then(news => {
+		news.articles.forEach(oneNews => {
+			const div = document.createElement('div');
+			div.appendChild(document.createTextNode(`Title: ${oneNews.title}`));
+			const parent = document.querySelector('#topicSeg');
+			const sib = document.querySelector('#topicConclusion');
+			parent.insertBefore(div, sib);
+		});
+	})
+	.catch(err => console.log(err));

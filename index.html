@@ -8,8 +8,9 @@
   <title>NEWS Analyzer</title>
 </head>
 <body>
-  <h1 style="display: flex; justify-content: center; background-color: #f3f3f3; padding-bottom: 5px;">It(News) fails to disclose that it does not merely "report" on the world.</h1>
-  <div class="ui secondary pointing menu">
+  <div class="container">
+    <h1 style="display: flex; justify-content: center; background-color: #f3f3f3; padding-bottom: 5px;">It(News) fails to disclose that it does not merely "report" on the world.</h1>
+  <div class="ui secondary pointing menu" id="buttons">
     <a class="item about active" id="aboutBtn">About</a>
     <a class="item topic" id="topicBtn">Repeating Topic</a>
     <a class="item quantity" id="quantityBtn">By Quantity</a>
@@ -35,25 +36,58 @@
     </ul>
     <br><hr>
     <h2>About Eric Whale</h2>
-    <div class="aboutMe">Self taught wanna be developer... yet!. <br>
-      Legal name: Hwang Sun Hyuk<br>
-      Language: basic syntax of <strong>PYTHON</strong>, <strong>C++</strong> and currently focusing on <strong>JAVASCRIPT</strong> for web development. (also can handle <strong>HTML</strong>, <strong>CSS</strong>) <br><br>
+    <ul class="aboutMe">
+      <li>Self taught wanna be developer... yet!</li><br>
+      <li>Legal name: Hwang Sun Hyuk</li><br>
+      <li>Language: basic syntax of <strong>PYTHON</strong>, <strong>C++</strong> and currently focusing on <strong>JAVASCRIPT</strong> for web development. (also can handle <strong>HTML</strong>, <strong>CSS</strong>)</li>
+    </ul>
+       <br><br>
       Contact: <a href="https://www.linkedin.com/in/eric-whale-4853301ab/">LinkedIn</a>
-    </div>
+
   </div>
 
   <div class="ui segment topic" id="topicSeg">
-    <p>by year! get repeating pattern of topics</p>
+    <span id="topicConclusion">repeating pattern: </span>
   </div>
   
   <div class="ui segment quantity" id="quantitySeg">
-    <p>by year! get proportion of quantity by categories</p>
+    <p>Get proportion of quantity by categories</p>
+    <h3>Keywords</h3>
+    <ul>
+      <li>Disaster</li>
+      <span>war, crash, </span>
+      <br><br>
+      <li>Economics & Politics</li>
+      <span>money, price, government</span>
+      <br><br>
+      <li>Entertainment</li>
+      <span>celebrity, scandal, movie, drama</span>
+      <br><br>
+      <li></li>
+    </ul>
   </div>
 
   <div class="ui segment traffic" id="trafficSeg">
-    <p>by year! get proportion of quantity by traffic</p>
+    <p>Get proportion of quantity by traffic</p>
+    <h3>Keywords</h3>
+    <ul>
+      <li>Disaster</li>
+      <span>war, crash, </span>
+      <br><br>
+      <li>Economics & Politics</li>
+      <span>money, price, government</span>
+      <br><br>
+      <li>Entertainment</li>
+      <span>celebrity, scandal, movie, drama</span>
+      <br><br>
+      <li></li>
+    </ul>
+  </div>
   </div>
   
+  <script src="topic.js"></script>
+  <script src="quantity.js"></script>
+  <script src="traffic.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
