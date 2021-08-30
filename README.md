@@ -1,6 +1,6 @@
 # NEWS Analyzer
 
-## EDIT(Aug.30.2021) - Archived the repo, but not the idea.
+## ⚠️ EDIT(Aug.30.2021) - Archived the repo, but not the idea.
 
 ### NEWS Analyzer is a project analyzing NEWS thoroughly to help people to <ins>READ NEWS PROPERLY.</ins>
 
